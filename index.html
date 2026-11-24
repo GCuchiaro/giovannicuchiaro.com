@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#15171A">
 <title>Giovanni Cuchiaro</title>
 <meta name="description" content="Giovanni Cuchiaro cuida de processos e inovação na MAC Consultoria Contábil. Aqui estão a trajetória, os projetos e os textos dele.">
 <meta property="og:title" content="Giovanni Cuchiaro">
@@ -13,199 +13,224 @@
 <meta property="og:image" content="https://giovannicuchiaro.com/assets/og.jpg">
 <link rel="canonical" href="https://giovannicuchiaro.com/">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="stylesheet" href="assets/tokens.css">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 <a class="skip" href="#conteudo">Pular para o conteúdo</a>
-<aside class="side" aria-label="Navegação">
-  <a class="id" href="" aria-label="Giovanni Cuchiaro, início"><picture><source srcset="assets/logos/gc-monograma-escuro.svg" media="(prefers-color-scheme: dark)"><img src="assets/logos/gc-monograma-claro.svg" alt="" width="44" height="44"></picture><span><b>Giovanni <em>Cuchiaro</em></b><small>processos e inovação</small></span></a>
-  <p class="where"><i></i>Santo André, SP · UTC−3</p>
-  <nav><ul class="toc"><li><a href="#trajetoria"><span>01</span>Trajetória</a></li><li><a href="#projetos"><span>02</span>Projetos</a></li><li><a href="#ferramentas"><span>03</span>Ferramentas</a></li><li><a href="#escritos"><span>04</span>Escritos</a></li><li><a href="#contato"><span>05</span>Contato</a></li></ul></nav>
-  <div class="side-foot">
-    <span class="label">aberto a boas conversas</span>
-    <span class="icons"><a href="https://www.linkedin.com/in/giovannicuchiaro/" rel="me" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V23h-4V8zm7 0h3.8v2.05h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V23h-4v-7.9c0-1.88-.03-4.3-2.62-4.3-2.62 0-3.02 2.05-3.02 4.17V23h-4V8z"/></svg></a><a href="mailto:contato@giovannicuchiaro.com" aria-label="E-mail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="m3 7 9 6 9-6"/></svg></a></span>
+<div class="progress" id="progress" aria-hidden="true"></div>
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="" aria-label="Giovanni Cuchiaro, início"><img src="assets/logos/gc-monograma-claro.svg" alt="" width="36" height="36"><span class="who"><b>Giovanni</b> <em>Cuchiaro</em></span></a>
+    <nav class="menu" id="menu" aria-label="Seções"><ol><li><a href="#trajetoria" data-id="trajetoria"><span>01</span>Trajetória</a></li><li><a href="#projetos" data-id="projetos"><span>02</span>Projetos</a></li><li><a href="#ferramentas" data-id="ferramentas"><span>03</span>Ferramentas</a></li><li><a href="#escritos" data-id="escritos"><span>04</span>Escritos</a></li><li><a href="#contato" data-id="contato"><span>05</span>Contato</a></li></ol></nav>
+    <a class="btn btn-p btn-sm mag nav-cta" href="#contato">Conversar <span class="ar" aria-hidden="true">→</span></a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><i></i><i></i></button>
   </div>
-</aside>
-<main class="main" id="conteudo">
+</header>
+<main id="conteudo">
 
-<section class="col hero" aria-labelledby="oi">
-  <div class="hero-grid">
-    <div>
-      <p class="label">giovanni cuchiaro / portfólio</p>
-      <h1 id="oi">Oi, eu sou o <em>Giovanni</em>.</h1>
-      <span class="hl">contabilidade · automação · IA</span>
-      <p class="lede">Passei cinco anos no Itaú e Itaú BBA trabalhando com engenharia de processos e parcerias estratégicas. Em jun/26 retornei para a MAC Consultoria Contábil, empresa familiar, para organizar e automatizar a operação com ferramentas de IA.</p>
+<section class="hero dark" aria-labelledby="oi">
+  <div class="orb" aria-hidden="true"></div>
+  <div class="wrap">
+    <p class="label rv">Giovanni Cuchiaro · portfólio</p>
+    <h1 id="oi" class="rv"><span class="mask"><span>Oi, eu sou</span></span><span class="mask"><span style="--i:1">o <em class="serif">Giovanni</em>.</span></span></h1>
+    <div class="hero-grid">
+      <div class="rv" style="--i:2">
+        <p class="hl">Contabilidade · automação · IA</p>
+        <p class="lede">Passei cinco anos no Itaú e Itaú BBA trabalhando com engenharia de processos e parcerias estratégicas. Em jun/26 retornei para a MAC Consultoria Contábil, empresa familiar, para organizar e automatizar a operação com ferramentas de IA.</p>
+      </div>
+      <aside class="nc rv" style="--i:3" aria-label="O que estou fazendo">
+        <p class="label"><i class="dot" aria-hidden="true"></i>Agora · outubro de 2026</p>
+        <h2>O que estou fazendo</h2>
+        <ul>
+          <li>Organizando os processos da MAC e ligando as contas dos clientes ao escritório via Open Finance.</li>
+          <li>Construindo o ERP do escritório.</li>
+          <li>Estudando Ciências Contábeis na FIPECAFI e Ciência e Tecnologia na UFABC.</li>
+        </ul>
+      </aside>
     </div>
-  </div>
-  <div class="now-card">
-    <i class="pulse" aria-hidden="true"></i>
-    <div>
-      <span class="label">agora · outubro de 2026</span>
-      <h2>O que estou fazendo</h2>
-      <ul>
-        <li>Organizando os processos da MAC e ligando as contas dos clientes ao escritório via Open Finance.</li>
-        <li>Construindo o ERP do escritório.</li>
-        <li>Estudando Ciências Contábeis na FIPECAFI e Ciência e Tecnologia na UFABC.</li>
-      </ul>
-    </div>
-  </div>
-  <div class="stats">
-    <a href="#trajetoria"><b>5 anos</b><span>no Itaú, em três equipes</span></a>
-    <a href="#trajetoria"><b>4</b><span>áreas da MAC com processos mapeados</span></a>
-    <a href="#projetos"><b>10+</b><span>ferramentas internas construídas</span></a>
-    <a href="#projetos"><b>66</b><span>atas geradas automaticamente</span></a>
   </div>
 </section>
 
-<section class="col block" id="trajetoria" aria-labelledby="t-trajetoria">
-  <div class="block-head">
-    <p class="label">01 / trajetória</p>
-    <h2 id="t-trajetoria">De volta ao <em>começo</em>.</h2>
-    <p>Meu primeiro emprego foi num escritório de contabilidade. Depois passei cinco anos num banco, e em 2026 voltei para lá.</p>
+<div class="marquee" aria-hidden="true"><div class="mq"><span>Processos</span><span>automação</span><span>Open Finance</span><span>inteligência artificial</span><span>Reforma Tributária</span><span>ERP</span><span>Processos</span><span>automação</span><span>Open Finance</span><span>inteligência artificial</span><span>Reforma Tributária</span><span>ERP</span></div></div>
+
+<section class="sec" id="trajetoria" aria-labelledby="t-trajetoria">
+  <div class="wrap sec-grid">
+    <div class="sh rv"><span class="n">01</span><h2 id="t-trajetoria">De volta ao <em class="serif">começo</em>.</h2><p class="lede">Meu primeiro emprego foi num escritório de contabilidade. Depois passei cinco anos num banco, e em 2026 voltei para lá.</p></div>
+    <div class="sec-body"><article class="job rv">
+  <header class="job-head">
+    <span class="yr">2026</span>
+    <div><h3>MAC Consultoria Contábil</h3><p class="label">Gerenciamento de Processos e Inovação</p><p class="label when">mai/2026 – hoje · Santo André, SP</p></div>
+    <span class="logo mac"><img src="assets/logos/mac.svg" alt="Logo da MAC" width="48" height="48"></span>
+  </header>
+  <div class="job-body">
+    <p class="job-sum">Voltei para o escritório da minha família para arrumar a forma como o trabalho anda e trazer tecnologia para o dia a dia. Também cuido dos projetos estratégicos e vou construindo as ferramentas que a equipe usa.</p>
+    
+    <div class="sub"><p class="label">1.1 · Processos</p><h4>Como o trabalho anda</h4><ul><li>Mapeei como funcionam a Contabilidade, o Departamento Pessoal, a Legalização e a entrada de clientes novos.</li><li>Estou implantando o Domínio Processos, o sistema de gestão que a MAC escolheu.</li><li>Acompanho uns dez projetos estratégicos e conto aos sócios, toda semana, como eles estão.</li></ul></div><div class="sub"><p class="label">1.2 · Transformação digital</p><h4>Automação e conteúdo</h4><ul><li>Escrevi o plano de Contabilidade Digital, para os extratos dos clientes chegarem ao escritório via Open Finance, sem ninguém digitar nada.</li><li>Criei mais de dez sistemas internos com IA, entre eles o ERP e o analisador financeiro (estão em <a href="#projetos">Projetos</a>).</li><li>Escrevo a newsletter semanal e os materiais sobre a Reforma Tributária enviados aos clientes.</li></ul></div>
+    <figure class="qc"><blockquote>“Clareza não é ponto de partida. Clareza é consequência de ter começado.”</blockquote><figcaption class="label">Anotado no Synergy 2026.</figcaption></figure>
   </div>
-  <article class="job">
+</article><article class="job rv">
   <header class="job-head">
-    <span class="logo mac"><img src="assets/logos/mac.svg" alt="Logo da MAC" width="56" height="56"></span>
-    <div><span class="num">01</span><h3>MAC Consultoria Contábil</h3><p class="label role">Gerenciamento de Processos e Inovação</p></div>
-    <p class="when">mai/2026 – hoje<br>Santo André, SP</p>
+    <span class="yr">2024</span>
+    <div><h3>Itaú BBA</h3><p class="label">Business Development e COE Intracadeia</p><p class="label when">jan/2024 – abr/2026 · São Paulo, SP</p></div>
+    <span class="logo bba"><img src="assets/logos/itau-bba.png" alt="Logo do Itaú BBA" width="48" height="48"></span>
   </header>
-  <p class="job-sum">Voltei para o escritório da minha família para arrumar a forma como o trabalho anda e trazer tecnologia para o dia a dia. Também cuido dos projetos estratégicos e vou construindo as ferramentas que a equipe usa.</p>
-  
-  <div class="sub"><span class="label">1.1 &nbsp; processos</span><h4>Como o trabalho anda</h4><ul><li>Mapeei como funcionam a Contabilidade, o Departamento Pessoal, a Legalização e a entrada de clientes novos.</li><li>Estou implantando o Domínio Processos, o sistema de gestão que a MAC escolheu.</li><li>Acompanho uns dez projetos estratégicos e conto aos sócios, toda semana, como eles estão.</li></ul></div><div class="sub"><span class="label">1.2 &nbsp; transformação digital</span><h4>Automação e conteúdo</h4><ul><li>Escrevi o plano de Contabilidade Digital, para os extratos dos clientes chegarem ao escritório via Open Finance, sem ninguém digitar nada.</li><li>Criei mais de dez sistemas internos com IA, entre eles o ERP e o analisador financeiro (estão em <a href="#projetos">Projetos</a>).</li><li>Escrevo a newsletter semanal e os materiais sobre a Reforma Tributária enviados aos clientes.</li></ul></div>
-  <p class="aside-line">“Clareza não é ponto de partida. Clareza é consequência de ter começado.” Anotado no Synergy 2026.</p>
-</article><article class="job">
+  <div class="job-body">
+    <p class="job-sum">No banco de atacado do Itaú, trabalhei com parcerias. Eram acordos com outras empresas que precisavam de alguém para fazer as áreas de negócio, tecnologia e crédito conversarem e para garantir que cada lado cumprisse o combinado.</p>
+    
+    <div class="sub"><p class="label">2.1 · Jul/2025 – abr/2026 · COE Intracadeia</p><h4>Cessão de recebíveis para o atacado</h4><p class="meta">Analista Pleno.</p><ul><li>Um parceiro do banco tinha um produto de cessão de recebíveis, e meu trabalho foi levá-lo aos clientes do atacado.</li><li>Desenhei como ele ia funcionar dentro do banco, conversava com a empresa parceira e cuidava para que o acordo fosse cumprido.</li></ul></div><div class="sub"><p class="label">2.2 · Jan/2024 – jul/2025 · Business Development</p><h4>A parceria com a TOTVS Techfin</h4><p class="meta">Business Development Analyst.</p><ul><li>A TOTVS Techfin é a empresa que o Itaú tem em sociedade com a TOTVS. Eu organizava as reuniões com os executivos, os reports para a diretoria e as agendas de acompanhamento.</li><li>Também fui o PM do projeto que passou a enviar dados de crédito do banco para a TOTVS Techfin, junto com as equipes de tecnologia e de crédito.</li></ul></div>
+    
+  </div>
+</article><article class="job rv">
   <header class="job-head">
-    <span class="logo bba"><img src="assets/logos/itau-bba.png" alt="Logo do Itaú BBA" width="56" height="56"></span>
-    <div><span class="num">02</span><h3>Itaú BBA</h3><p class="label role">Business Development e COE Intracadeia</p></div>
-    <p class="when">jan/2024 – abr/2026<br>São Paulo, SP</p>
+    <span class="yr">2021</span>
+    <div><h3>Itaú Unibanco</h3><p class="label">Engenharia de Processos</p><p class="label when">mai/2021 – jan/2024 · São Paulo, SP</p></div>
+    <span class="logo itau"><img src="assets/logos/itau.svg" alt="Logo do Itaú" width="48" height="48"></span>
   </header>
-  <p class="job-sum">No banco de atacado do Itaú, trabalhei com parcerias. Eram acordos com outras empresas que precisavam de alguém para fazer as áreas de negócio, tecnologia e crédito conversarem e para garantir que cada lado cumprisse o combinado.</p>
-  
-  <div class="sub"><span class="label">2.1 &nbsp; jul/2025 – abr/2026 · COE Intracadeia</span><h4>Cessão de recebíveis para o atacado</h4><p class="meta">Analista Pleno.</p><ul><li>Um parceiro do banco tinha um produto de cessão de recebíveis, e meu trabalho foi levá-lo aos clientes do atacado.</li><li>Desenhei como ele ia funcionar dentro do banco, conversava com a empresa parceira e cuidava para que o acordo fosse cumprido.</li></ul></div><div class="sub"><span class="label">2.2 &nbsp; jan/2024 – jul/2025 · Business Development</span><h4>A parceria com a TOTVS Techfin</h4><p class="meta">Business Development Analyst.</p><ul><li>A TOTVS Techfin é a empresa que o Itaú tem em sociedade com a TOTVS. Eu organizava as reuniões com os executivos, os reports para a diretoria e as agendas de acompanhamento.</li><li>Também fui o PM do projeto que passou a enviar dados de crédito do banco para a TOTVS Techfin, junto com as equipes de tecnologia e de crédito.</li></ul></div>
-  
-</article><article class="job">
+  <div class="job-body">
+    <p class="job-sum">Entrei aos 18 anos, como estagiário, e saí analista pleno.</p>
+    <ul class="tags"><li class="badge b-neutral">2 promoções em menos de 3 anos</li></ul>
+    <div class="sub"><p class="label">3.1 · Mai/2021 – jan/2024</p><h4>Rotina da área comercial</h4><p class="meta">Estagiário, Analista Jr. e Analista Pleno.</p><ul><li>Meu trabalho era olhar a rotina do time comercial, achar o que dava para simplificar ou automatizar e planejar essas mudanças.</li><li>Também acompanhava o andamento desses projetos.</li></ul></div>
+    
+  </div>
+</article><article class="job rv">
   <header class="job-head">
-    <span class="logo itau"><img src="assets/logos/itau.svg" alt="Logo do Itaú" width="56" height="56"></span>
-    <div><span class="num">03</span><h3>Itaú Unibanco</h3><p class="label role">Engenharia de Processos</p></div>
-    <p class="when">mai/2021 – jan/2024<br>São Paulo, SP</p>
+    <span class="yr">2018</span>
+    <div><h3>MAC Consultoria Contábil</h3><p class="label">Auxiliar Contábil, meio período</p><p class="label when">jan/2018 – mai/2021 · Santo André, SP</p></div>
+    <span class="logo mac"><img src="assets/logos/mac.svg" alt="Logo da MAC" width="48" height="48"></span>
   </header>
-  <p class="job-sum">Entrei aos 18 anos, como estagiário, e saí analista pleno.</p>
-  <ul class="tags"><li>2 promoções em menos de 3 anos</li></ul>
-  <div class="sub"><span class="label">3.1 &nbsp; mai/2021 – jan/2024</span><h4>Rotina da área comercial</h4><p class="meta">Estagiário, Analista Jr. e Analista Pleno.</p><ul><li>Meu trabalho era olhar a rotina do time comercial, achar o que dava para simplificar ou automatizar e planejar essas mudanças.</li><li>Também acompanhava o andamento desses projetos.</li></ul></div>
-  
-</article><article class="job">
-  <header class="job-head">
-    <span class="logo mac"><img src="assets/logos/mac.svg" alt="Logo da MAC" width="56" height="56"></span>
-    <div><span class="num">04</span><h3>MAC Consultoria Contábil</h3><p class="label role">Auxiliar Contábil, meio período</p></div>
-    <p class="when">jan/2018 – mai/2021<br>Santo André, SP</p>
-  </header>
-  <p class="job-sum">Foi aqui que conheci por dentro a rotina de um escritório de contabilidade, anos antes de voltar para organizar a casa.</p>
-  <ul class="tags"><li>primeiro emprego</li></ul>
-  
-  
-</article>
+  <div class="job-body">
+    <p class="job-sum">Foi aqui que conheci por dentro a rotina de um escritório de contabilidade, anos antes de voltar para organizar a casa.</p>
+    <ul class="tags"><li class="badge b-neutral">Primeiro emprego</li></ul>
+    
+    
+  </div>
+</article></div>
+  </div>
 </section>
 
-<section class="col block" id="projetos" aria-labelledby="t-projetos">
-  <div class="block-head">
-    <p class="label">02 / projetos</p>
-    <h2 id="t-projetos">Coisas que <em>construí</em>.</h2>
-    <p>Quase todas começaram com uma tarefa repetitiva que alguém fazia à mão. As telas são das ferramentas de verdade, rodando com empresas e números fictícios.</p>
-  </div>
-  <div class="cards"><article class="card card-wide">
-  <a class="shot-img" href="assets/telas/analisador.jpg"><picture>
+<section class="sec alt" id="projetos" aria-labelledby="t-projetos">
+  <div class="wrap sec-grid">
+    <div class="sh rv"><span class="n">02</span><h2 id="t-projetos">Coisas que <em class="serif">construí</em>.</h2><p class="lede">Quase todas começaram com uma tarefa repetitiva que alguém fazia à mão. As telas são das ferramentas de verdade, rodando com empresas e números fictícios.</p></div>
+    <div class="sec-body">
+      <div class="cards"><article class="pc rv pc-wide" style="--i:0">
+  <a class="shot" href="assets/telas/analisador.jpg" aria-label="Ampliar a tela do Analisador Financeiro"><picture>
     <source type="image/webp" srcset="assets/telas/analisador.webp">
     <img src="assets/telas/analisador.jpg" width="1600" height="1000" loading="lazy" alt="Tela do Analisador Financeiro, com dados fictícios">
   </picture></a>
-  <div class="card-body">
-  <div class="card-top"><span class="idx">01</span><span class="cat">ferramenta interna</span></div>
-  <h3>Analisador Financeiro</h3>
-  <p>Lê o balancete exportado do sistema contábil, calcula os indicadores e monta o painel de saúde financeira, com rascunho de parecer. Os dados brutos não ficam guardados.</p>
-  <p class="stack-line">Python · FastAPI · React</p>
+  <div class="bd">
+    <div class="pc-top"><span class="label">01</span><span class="badge b-neutral">Ferramenta interna</span></div>
+    <h3>Analisador Financeiro</h3>
+    <p>Lê o balancete exportado do sistema contábil, calcula os indicadores e monta o painel de saúde financeira, com rascunho de parecer. Os dados brutos não ficam guardados.</p>
+    <p class="stk label">Python · FastAPI · React</p>
   </div>
-</article><article class="card">
-  <a class="shot-img" href="assets/telas/orcamentos.jpg"><picture>
+</article><article class="pc rv" style="--i:1">
+  <a class="shot" href="assets/telas/orcamentos.jpg" aria-label="Ampliar a tela do Gerador de Orçamentos"><picture>
     <source type="image/webp" srcset="assets/telas/orcamentos.webp">
     <img src="assets/telas/orcamentos.jpg" width="1400" height="1001" loading="lazy" alt="Tela do Gerador de Orçamentos, com dados fictícios">
   </picture></a>
-  <div class="card-body">
-  <div class="card-top"><span class="idx">02</span><span class="cat">automação</span></div>
-  <h3>Gerador de Orçamentos</h3>
-  <p>Consulta o CNPJ, calcula o honorário pela tabela do escritório e gera a proposta em PDF, sempre no mesmo padrão.</p>
-  <p class="stack-line">Python · HTML para PDF</p>
+  <div class="bd">
+    <div class="pc-top"><span class="label">02</span><span class="badge b-neutral">Automação</span></div>
+    <h3>Gerador de Orçamentos</h3>
+    <p>Consulta o CNPJ, calcula o honorário pela tabela do escritório e gera a proposta em PDF, sempre no mesmo padrão.</p>
+    <p class="stk label">Python · HTML para PDF</p>
   </div>
-</article><article class="card">
-  <a class="shot-img" href="assets/telas/carrosseis.jpg"><picture>
+</article><article class="pc rv" style="--i:2">
+  <a class="shot" href="assets/telas/carrosseis.jpg" aria-label="Ampliar a tela do Gerador de Carrosséis"><picture>
     <source type="image/webp" srcset="assets/telas/carrosseis.webp">
     <img src="assets/telas/carrosseis.jpg" width="1400" height="933" loading="lazy" alt="Tela do Gerador de Carrosséis, com dados fictícios">
   </picture></a>
-  <div class="card-body">
-  <div class="card-top"><span class="idx">03</span><span class="cat">IA</span></div>
-  <h3>Gerador de Carrosséis</h3>
-  <p>Usa IA para escrever o texto no tom da marca e exporta vários carrosséis de uma vez, já no formato do Instagram.</p>
-  <p class="stack-line">Next.js · API do Claude · Canvas</p>
+  <div class="bd">
+    <div class="pc-top"><span class="label">03</span><span class="badge b-neutral">IA</span></div>
+    <h3>Gerador de Carrosséis</h3>
+    <p>Usa IA para escrever o texto no tom da marca e exporta vários carrosséis de uma vez, já no formato do Instagram.</p>
+    <p class="stk label">Next.js · API do Claude · Canvas</p>
   </div>
-</article><article class="card">
-  <a class="shot-img" href="assets/telas/simulador.jpg"><picture>
+</article><article class="pc rv" style="--i:0">
+  <a class="shot" href="assets/telas/simulador.jpg" aria-label="Ampliar a tela do Simulador de Regimes Tributários"><picture>
     <source type="image/webp" srcset="assets/telas/simulador.webp">
     <img src="assets/telas/simulador.jpg" width="1400" height="875" loading="lazy" alt="Tela do Simulador de Regimes Tributários, com dados fictícios">
   </picture></a>
-  <div class="card-body">
-  <div class="card-top"><span class="idx">04</span><span class="cat">ferramenta para clientes</span></div>
-  <h3>Simulador de Regimes Tributários</h3>
-  <p>Compara Simples, Presumido e Real em três passos. Serve para o empresário ver se vale a pena revisar o enquadramento.</p>
-  <p class="stack-line">HTML · JavaScript</p>
+  <div class="bd">
+    <div class="pc-top"><span class="label">04</span><span class="badge b-neutral">Ferramenta para clientes</span></div>
+    <h3>Simulador de Regimes Tributários</h3>
+    <p>Compara Simples, Presumido e Real em três passos. Serve para o empresário ver se vale a pena revisar o enquadramento.</p>
+    <p class="stk label">HTML · JavaScript</p>
   </div>
-</article><article class="card">
-  <a class="shot-img" href="assets/telas/giro.jpg"><picture>
+</article><article class="pc rv" style="--i:1">
+  <a class="shot" href="assets/telas/giro.jpg" aria-label="Ampliar a tela do Giro de Notícias"><picture>
     <source type="image/webp" srcset="assets/telas/giro.webp">
     <img src="assets/telas/giro.jpg" width="1100" height="1210" loading="lazy" alt="Tela do Giro de Notícias, com dados fictícios">
   </picture></a>
-  <div class="card-body">
-  <div class="card-top"><span class="idx">05</span><span class="cat">conteúdo</span></div>
-  <h3>Giro de Notícias</h3>
-  <p>Newsletter semanal para os clientes. Sai de uma coleta diária de notícias sobre prazos e tributos.</p>
-  <p class="stack-line">Claude · HTML · PDF</p>
+  <div class="bd">
+    <div class="pc-top"><span class="label">05</span><span class="badge b-neutral">Conteúdo</span></div>
+    <h3>Giro de Notícias</h3>
+    <p>Newsletter semanal para os clientes. Sai de uma coleta diária de notícias sobre prazos e tributos.</p>
+    <p class="stk label">Claude · HTML · PDF</p>
   </div>
 </article></div>
-  <ul class="more-list"><li><b>ERP do escritório</b><span>Clientes, contratos, CRM e financeiro no mesmo lugar, com permissões por departamento e histórico de alterações.</span><span class="mono">Next.js · TypeScript · Supabase</span></li><li><b>Calculadora de Valuation</b><span>Fluxo de caixa descontado que documenta cada premissa e entrega uma faixa de valor em vez de um número único.</span><span class="mono">Python · FastAPI · React</span></li><li><b>E-mails mensais automáticos</b><span>Manda pelo Outlook o e-mail mensal dos clientes, com modo de teste e controle de quem já recebeu.</span><span class="mono">Python · Outlook</span></li><li><b>Atas automáticas</b><span>Transforma a gravação de uma reunião numa ata no padrão do escritório.</span><span class="mono">Claude · Skills</span></li><li><b>Importador do Livro Diário</b><span>Classifica os lançamentos de caixa do diário contábil para o controle financeiro.</span><span class="mono">Python · openpyxl</span></li><li><b>Contabilidade Digital</b><span>Projeto para ligar as contas bancárias da carteira via Open Finance e acabar com a digitação de extratos.</span><span class="mono">Open Finance · gestão de projetos</span></li></ul>
-</section>
-
-<section class="col block" id="ferramentas" aria-labelledby="t-ferramentas">
-  <div class="block-head">
-    <p class="label">03 / ferramentas</p>
-    <h2 id="t-ferramentas">O que aparece no meu <em>dia a dia</em>.</h2>
+      <h3 class="sub-h rv">Outros projetos</h3>
+      <div class="exp rv"><details><summary><b>ERP do escritório</b><span class="label">Next.js · TypeScript · Supabase</span><span class="pm" aria-hidden="true"></span></summary><div class="body"><p>Clientes, contratos, CRM e financeiro no mesmo lugar, com permissões por departamento e histórico de alterações.</p></div></details><details><summary><b>Calculadora de Valuation</b><span class="label">Python · FastAPI · React</span><span class="pm" aria-hidden="true"></span></summary><div class="body"><p>Fluxo de caixa descontado que documenta cada premissa e entrega uma faixa de valor em vez de um número único.</p></div></details><details><summary><b>E-mails mensais automáticos</b><span class="label">Python · Outlook</span><span class="pm" aria-hidden="true"></span></summary><div class="body"><p>Manda pelo Outlook o e-mail mensal dos clientes, com modo de teste e controle de quem já recebeu.</p></div></details><details><summary><b>Atas automáticas</b><span class="label">Claude · Skills</span><span class="pm" aria-hidden="true"></span></summary><div class="body"><p>Transforma a gravação de uma reunião numa ata no padrão do escritório.</p></div></details><details><summary><b>Importador do Livro Diário</b><span class="label">Python · openpyxl</span><span class="pm" aria-hidden="true"></span></summary><div class="body"><p>Classifica os lançamentos de caixa do diário contábil para o controle financeiro.</p></div></details><details><summary><b>Contabilidade Digital</b><span class="label">Open Finance · gestão de projetos</span><span class="pm" aria-hidden="true"></span></summary><div class="body"><p>Projeto para ligar as contas bancárias da carteira via Open Finance e acabar com a digitação de extratos.</p></div></details></div>
+    </div>
   </div>
-  <div class="toolbox"><div><h3>Processos</h3><ul><li>Mapeamento de processos</li><li>BPM e checklists</li><li>Domínio Processos</li><li>Governança de projetos</li></ul></div><div><h3>Código</h3><ul><li>Python</li><li>TypeScript</li><li>React e Next.js</li><li>FastAPI</li></ul></div><div><h3>Dados</h3><ul><li>Supabase e Postgres</li><li>Excel e openpyxl</li><li>Balancetes do Domínio</li><li>Open Finance</li></ul></div><div><h3>IA</h3><ul><li>Claude</li><li>Claude Code</li><li>API do Claude</li><li>Skills e automações</li></ul></div></div>
 </section>
 
-<section class="col block" id="escritos" aria-labelledby="t-escritos">
-  <div class="block-head">
-    <p class="label">04 / escritos</p>
-    <h2 id="t-escritos">Anotações do <em>caminho</em>.</h2>
+<section class="sec dark numbers" aria-labelledby="t-numeros">
+  <div class="wrap">
+    <h2 class="label" id="t-numeros">Em números</h2>
+    <div class="stats">
+      <div class="stat"><span class="n" data-to="5">5</span><p>anos no Itaú, em três equipes</p></div>
+      <div class="stat"><span class="n" data-to="4">4</span><p>áreas da MAC com processos mapeados</p></div>
+      <div class="stat"><span class="n" data-to="10" data-suf="+">10<sup>+</sup></span><p>ferramentas internas construídas</p></div>
+      <div class="stat"><span class="n" data-to="66">66</span><p>atas geradas automaticamente</p></div>
+    </div>
   </div>
-  <a class="post" href="escritos/synergy-2026/">
-    <div><span class="label">2 de outubro de 2026 · evento</span><h3>Dois dias no Synergy 2026: como a Reforma Tributária e a IA estão impactando o mercado da Contabilidade</h3>
-    <p>O que vi no Synergy, o evento da Soluções Domínio, e o que isso muda para os escritórios contábeis.</p></div>
-    <span class="go">ler o texto</span>
-  </a>
 </section>
 
-<section class="col block contact" id="contato" aria-labelledby="t-contato">
-  <p class="label">05 / contato</p>
-  <h2 id="t-contato">Vamos <em>conversar</em>?</h2>
-  <p>Se quiser trocar ideias sobre processos ou sobre o que a IA está mudando na contabilidade, é só mandar uma mensagem. Também posso ajudar se você precisa automatizar alguma tarefa na sua empresa.</p>
-  <div class="btns">
-    <a class="btn btn-solid" href="mailto:contato@giovannicuchiaro.com">Escrever um e-mail</a>
-    <a class="btn" href="https://www.linkedin.com/in/giovannicuchiaro/" rel="me">LinkedIn</a>
-    <a class="btn" href="cv/">Currículo</a>
+<section class="sec" id="ferramentas" aria-labelledby="t-ferramentas">
+  <div class="wrap sec-grid">
+    <div class="sh rv"><span class="n">03</span><h2 id="t-ferramentas">O que aparece no meu <em class="serif">dia a dia</em>.</h2></div>
+    <div class="sec-body rv">
+      <div class="tabs" role="tablist" aria-label="Ferramentas por área"><button class="tab" role="tab" id="tab-1" aria-controls="tp-1" aria-selected="true" tabindex="0">Processos</button><button class="tab" role="tab" id="tab-2" aria-controls="tp-2" aria-selected="false" tabindex="-1">Código</button><button class="tab" role="tab" id="tab-3" aria-controls="tp-3" aria-selected="false" tabindex="-1">Dados</button><button class="tab" role="tab" id="tab-4" aria-controls="tp-4" aria-selected="false" tabindex="-1">IA</button></div>
+      <div class="tabpanel" role="tabpanel" id="tp-1" aria-labelledby="tab-1"><ul><li>Mapeamento de processos</li><li>BPM e checklists</li><li>Domínio Processos</li><li>Governança de projetos</li></ul></div><div class="tabpanel" role="tabpanel" id="tp-2" aria-labelledby="tab-2" hidden><ul><li>Python</li><li>TypeScript</li><li>React e Next.js</li><li>FastAPI</li></ul></div><div class="tabpanel" role="tabpanel" id="tp-3" aria-labelledby="tab-3" hidden><ul><li>Supabase e Postgres</li><li>Excel e openpyxl</li><li>Balancetes do Domínio</li><li>Open Finance</li></ul></div><div class="tabpanel" role="tabpanel" id="tp-4" aria-labelledby="tab-4" hidden><ul><li>Claude</li><li>Claude Code</li><li>API do Claude</li><li>Skills e automações</li></ul></div>
+    </div>
   </div>
-  <p class="addr">contato@giovannicuchiaro.com</p>
 </section>
 
-<footer class="col foot label"><span>giovanni cuchiaro · 2026</span><span>feito à mão, com ajuda de IA</span></footer>
+<section class="sec alt" id="escritos" aria-labelledby="t-escritos">
+  <div class="wrap sec-grid">
+    <div class="sh rv"><span class="n">04</span><h2 id="t-escritos">Anotações do <em class="serif">caminho</em>.</h2></div>
+    <div class="sec-body">
+      <a class="post rv" href="escritos/synergy-2026/">
+        <span class="label">2 de outubro de 2026 · evento</span>
+        <h3>Dois dias no Synergy 2026: como a Reforma Tributária e a IA estão impactando o mercado da Contabilidade</h3>
+        <p>O que vi no Synergy, o evento da Soluções Domínio, e o que isso muda para os escritórios contábeis.</p>
+        <span class="btn btn-g">Ler o texto <span class="ar" aria-hidden="true">→</span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="sec dark contact" id="contato" aria-labelledby="t-contato">
+  <div class="orb" aria-hidden="true"></div>
+  <div class="wrap">
+    <span class="n label rv">05 · Contato</span>
+    <h2 id="t-contato" class="rv">Vamos <em class="serif">conversar</em>?</h2>
+    <p class="lede rv">Se quiser trocar ideias sobre processos ou sobre o que a IA está mudando na contabilidade, é só mandar uma mensagem. Também posso ajudar se você precisa automatizar alguma tarefa na sua empresa.</p>
+    <div class="btnrow rv">
+      <a class="btn btn-p mag" href="mailto:contato@giovannicuchiaro.com">Escrever um e-mail <span class="ar" aria-hidden="true">→</span></a>
+      <a class="btn btn-s" href="https://www.linkedin.com/in/giovannicuchiaro/" rel="me">LinkedIn</a>
+      <a class="btn btn-s" href="cv/">Currículo</a>
+    </div>
+    <p class="addr label rv">contato@giovannicuchiaro.com</p>
+  </div>
+</section>
+
 </main>
+<footer class="foot dark"><div class="wrap"><span class="label">Giovanni Cuchiaro · 2026</span><span class="label">Feito à mão, com ajuda de IA.</span></div></footer>
+<div class="cur" id="cur" aria-hidden="true"></div>
 <script src="assets/site.js" defer></script>
 </body>
 </html>

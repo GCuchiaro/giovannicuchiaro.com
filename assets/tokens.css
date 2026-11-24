@@ -1,0 +1,123 @@
+/* Giovanni Cuchiaro — gerado de tokens.json. Tema claro em :root; banda escura com .dark ou [data-theme="dark"]. */
+:root, [data-theme="light"] {
+  --bg: #ECEAE6;
+  --surface: #F6F5F2;
+  --ink: #15171A;
+  --ink-2: #5F5D58;
+  --line: #CFCBC3;
+  --line-s: #7C7971;
+  --brand: #3B6450;
+  --accent: #273D31;
+  --accent-h: #1C2D24;
+  --on-accent: #FFFFFF;
+  --s-ok: #2E6B45;
+  --s-aten: #865A0B;
+  --s-erro: #9A3B2E;
+  --s-info: #34557E;
+  --accent-soft: #DCE3DE;
+  --chart-1: var(--accent);
+  --chart-2: #A26F1F;
+  --chart-3: #4C6F94;
+  --chart-4: #9C5A3E;
+  --chart-5: #76736C;
+  --chart-grid: #DDD9D2;
+  --verde-900: #1C2D24;
+  --verde-800: #273D31;
+  --verde-700: #33503F;
+  --verde-600: #3B6450;
+  --verde-400: #67A282;
+  --verde-300: #8DBFA3;
+  --verde-200: #B4D6C2;
+  --grafite-950: #15171A;
+  --grafite-900: #1D2024;
+  --grafite-800: #24272B;
+  --pedra-300: #9A9893;
+  --nevoa: #ECEAE6;
+  --nevoa-alta: #F6F5F2;
+  --nevoa-funda: #E2DFD9;
+  --tinta: #15171A;
+  --tinta-2: #5F5D58;
+  --linha: #CFCBC3;
+  --linha-forte: #7C7971;
+  --ok: #2E6B45;
+  --ok-d: #7CC49A;
+  --aten: #865A0B;
+  --aten-d: #E2AE55;
+  --erro: #9A3B2E;
+  --erro-d: #E58E7E;
+  --info: #34557E;
+  --info-d: #93AED4;
+  --shadow-modal: 0 30px 80px -20px rgba(21,23,26,0.5);
+}
+.dark, [data-theme="dark"] {
+  --bg: #15171A;
+  --surface: #1D2024;
+  --ink: #ECEAE6;
+  --ink-2: #9A9893;
+  --line: #2C2F33;
+  --line-s: #8A877F;
+  --brand: #8DBFA3;
+  --accent: #67A282;
+  --accent-h: #B4D6C2;
+  --on-accent: #15171A;
+  --s-ok: #7CC49A;
+  --s-aten: #E2AE55;
+  --s-erro: #E58E7E;
+  --s-info: #93AED4;
+  --accent-soft: #1E2A24;
+  --chart-1: var(--accent);
+  --chart-2: #D9A55A;
+  --chart-3: #8EAACB;
+  --chart-4: #D2906F;
+  --chart-5: #8D8A84;
+  --chart-grid: #24272B;
+}
+:root {
+  --font-display: "Inter Tight", system-ui, sans-serif;
+  --font-serif: "Instrument Serif", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-6: 24px;
+  --s-8: 32px;
+  --s-12: 48px;
+  --s-16: 64px;
+  --s-24: 96px;
+  --s-32: 128px;
+  --s-48: 192px;
+  --r-0: 0;
+  --r-s: 4px;
+  --r-pill: 999px;
+  --d-fast: 180ms;
+  --d-base: 420ms;
+  --d-slow: 900ms;
+  --d-count: 1600ms;
+  --e-out: cubic-bezier(.16,1,.3,1);
+  --e-io: cubic-bezier(.65,0,.35,1);
+  --band: clamp(72px,9vw,144px);
+  --gut: clamp(20px,4vw,64px);
+  --measure: 62ch;
+  --measure-title: 22ch;
+  --side: 248px;
+  --z-raised: 2;
+  --z-sticky: 40;
+  --z-dropdown: 50;
+  --z-top: 100;
+  --z-scrim: 1050;
+  --z-drawer: 1100;
+  --z-modal: 1200;
+  --z-tip: 1300;
+  --z-cursor: 1400;
+}
+.t-num { font-family: var(--font-display); font-size: 144px; line-height: 0.86; font-weight: 800; letter-spacing: -0.06em; }
+.t-d1 { font-family: var(--font-display); font-size: 96px; line-height: 1; font-weight: 700; letter-spacing: -0.035em; }
+.t-h1 { font-family: var(--font-display); font-size: 60px; line-height: 1.02; font-weight: 700; letter-spacing: -0.035em; }
+.t-h2 { font-family: var(--font-display); font-size: 36px; line-height: 1.05; font-weight: 700; letter-spacing: -0.03em; }
+.t-h3 { font-family: var(--font-display); font-size: 22px; line-height: 1.2; font-weight: 600; letter-spacing: -0.02em; }
+.t-serif { font-family: var(--font-serif); font-size: 60px; line-height: 1.02; font-weight: 400; letter-spacing: -0.01em; font-style: italic; }
+.t-lede { font-family: var(--font-display); font-size: 21px; line-height: 1.5; font-weight: 400; }
+.t-body { font-family: var(--font-display); font-size: 17px; line-height: 1.6; font-weight: 400; }
+.t-small { font-family: var(--font-display); font-size: 14px; line-height: 1.5; font-weight: 400; }
+.t-label { font-family: var(--font-mono); font-size: 12px; line-height: 1.4; font-weight: 500; letter-spacing: 0.03em; }
